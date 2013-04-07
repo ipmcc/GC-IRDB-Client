@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D966AE7B1711CFB500ABEC52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D966AE7A1711CFB500ABEC52 /* Cocoa.framework */; };
+		D966AE851711CFB500ABEC52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D966AE831711CFB500ABEC52 /* InfoPlist.strings */; };
+		D966AE871711CFB500ABEC52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D966AE861711CFB500ABEC52 /* main.m */; };
+		D966AE8E1711CFB500ABEC52 /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D966AE8D1711CFB500ABEC52 /* IMAppDelegate.m */; };
+		D966AE911711CFB500ABEC52 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D966AE8F1711CFB500ABEC52 /* MainMenu.xib */; };
+		D966AE981711CFE100ABEC52 /* GlobalCacheIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = D966AE971711CFE100ABEC52 /* GlobalCacheIcon.iconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D966AE771711CFB500ABEC52 /* Global Cache IR DB Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Global Cache IR DB Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D966AE7A1711CFB500ABEC52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D966AE7D1711CFB500ABEC52 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D966AE7E1711CFB500ABEC52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D966AE7F1711CFB500ABEC52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D966AE821711CFB500ABEC52 /* Global Cache IR DB Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Global Cache IR DB Client-Info.plist"; sourceTree = "<group>"; };
+		D966AE841711CFB500ABEC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D966AE861711CFB500ABEC52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D966AE881711CFB500ABEC52 /* Global Cache IR DB Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Global Cache IR DB Client-Prefix.pch"; sourceTree = "<group>"; };
+		D966AE8C1711CFB500ABEC52 /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		D966AE8D1711CFB500ABEC52 /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
+		D966AE901711CFB500ABEC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D966AE971711CFE100ABEC52 /* GlobalCacheIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = GlobalCacheIcon.iconset; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D966AE741711CFB500ABEC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966AE7B1711CFB500ABEC52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D966AE6E1711CFB500ABEC52 = {
+			isa = PBXGroup;
+			children = (
+				D966AE801711CFB500ABEC52 /* Global Cache IR DB Client */,
+				D966AE791711CFB500ABEC52 /* Frameworks */,
+				D966AE781711CFB500ABEC52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D966AE781711CFB500ABEC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D966AE771711CFB500ABEC52 /* Global Cache IR DB Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D966AE791711CFB500ABEC52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D966AE7A1711CFB500ABEC52 /* Cocoa.framework */,
+				D966AE7C1711CFB500ABEC52 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D966AE7C1711CFB500ABEC52 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D966AE7D1711CFB500ABEC52 /* AppKit.framework */,
+				D966AE7E1711CFB500ABEC52 /* CoreData.framework */,
+				D966AE7F1711CFB500ABEC52 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D966AE801711CFB500ABEC52 /* Global Cache IR DB Client */ = {
+			isa = PBXGroup;
+			children = (
+				D966AE8C1711CFB500ABEC52 /* IMAppDelegate.h */,
+				D966AE8D1711CFB500ABEC52 /* IMAppDelegate.m */,
+				D966AE8F1711CFB500ABEC52 /* MainMenu.xib */,
+				D966AE811711CFB500ABEC52 /* Supporting Files */,
+			);
+			path = "Global Cache IR DB Client";
+			sourceTree = "<group>";
+		};
+		D966AE811711CFB500ABEC52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D966AE971711CFE100ABEC52 /* GlobalCacheIcon.iconset */,
+				D966AE821711CFB500ABEC52 /* Global Cache IR DB Client-Info.plist */,
+				D966AE831711CFB500ABEC52 /* InfoPlist.strings */,
+				D966AE861711CFB500ABEC52 /* main.m */,
+				D966AE881711CFB500ABEC52 /* Global Cache IR DB Client-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D966AE761711CFB500ABEC52 /* Global Cache IR DB Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D966AE941711CFB500ABEC52 /* Build configuration list for PBXNativeTarget "Global Cache IR DB Client" */;
+			buildPhases = (
+				D966AE731711CFB500ABEC52 /* Sources */,
+				D966AE741711CFB500ABEC52 /* Frameworks */,
+				D966AE751711CFB500ABEC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Global Cache IR DB Client";
+			productName = "Global Cache IR DB Client";
+			productReference = D966AE771711CFB500ABEC52 /* Global Cache IR DB Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D966AE6F1711CFB500ABEC52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ian McCullough";
+			};
+			buildConfigurationList = D966AE721711CFB500ABEC52 /* Build configuration list for PBXProject "Global Cache IR DB Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D966AE6E1711CFB500ABEC52;
+			productRefGroup = D966AE781711CFB500ABEC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D966AE761711CFB500ABEC52 /* Global Cache IR DB Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D966AE751711CFB500ABEC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966AE981711CFE100ABEC52 /* GlobalCacheIcon.iconset in Resources */,
+				D966AE851711CFB500ABEC52 /* InfoPlist.strings in Resources */,
+				D966AE911711CFB500ABEC52 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D966AE731711CFB500ABEC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D966AE8E1711CFB500ABEC52 /* IMAppDelegate.m in Sources */,
+				D966AE871711CFB500ABEC52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D966AE831711CFB500ABEC52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D966AE841711CFB500ABEC52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D966AE8F1711CFB500ABEC52 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D966AE901711CFB500ABEC52 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D966AE921711CFB500ABEC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D966AE931711CFB500ABEC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D966AE951711CFB500ABEC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Cache IR DB Client/Global Cache IR DB Client-Prefix.pch";
+				INFOPLIST_FILE = "Global Cache IR DB Client/Global Cache IR DB Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D966AE961711CFB500ABEC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Global Cache IR DB Client/Global Cache IR DB Client-Prefix.pch";
+				INFOPLIST_FILE = "Global Cache IR DB Client/Global Cache IR DB Client-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D966AE721711CFB500ABEC52 /* Build configuration list for PBXProject "Global Cache IR DB Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D966AE921711CFB500ABEC52 /* Debug */,
+				D966AE931711CFB500ABEC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D966AE941711CFB500ABEC52 /* Build configuration list for PBXNativeTarget "Global Cache IR DB Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D966AE951711CFB500ABEC52 /* Debug */,
+				D966AE961711CFB500ABEC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D966AE6F1711CFB500ABEC52 /* Project object */;
+}
